@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intervenção PW</title>
+</head>
+<body>
+	<script type="text/javascript">
+		let site = {
+        titulo:"Sistema de Avaliação Online",
+        url: "https://www.sistemaOnlineAv.com.br",  
+        tags: ["Biologia", "História", "Matemática", "Português"], 
+        disciplinasTecnicas:{ 
+            adm: ["Direito do Consumidor", "Marketing"],
+            inf: ["HTML/CSS", "Design","Programação Web"],
+            enf: ["Saúde da Mulher", "Primeiro Socorros"]},
+        escola:function(nome){
+            console.log(nome)
+            }
+        }
+        console.log(site.titulo);
+        console.log(site.url);
+        console.log(site.tags[2]);
+        console.log(site.disciplinasTecnicas.adm[1]);
+        site.escola("EEEP Amélia Figueiredo");
+	</script>
+
+</body>
+</html>
